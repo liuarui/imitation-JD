@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #f6f6f6;
+    background-color: #f0f3ef;
 }
 
 header {
@@ -232,13 +232,14 @@ button em {
 
 /*底部开始*/
 footer {
-    background-color: pink;
-    height: 500px;
+    height: 600px;
 }
+
 .kh {
     border-bottom: 1px solid #dedede;
     height: 102px;
 }
+
 .kh ul li {
     width: 297px;
     height: 43px;
@@ -248,7 +249,8 @@ footer {
     color: #444;
     font-size: 18px;
 }
-.kh  li h5 {
+
+.kh li h5 {
     position: absolute;
     top: 0;
     left: 38px;
@@ -257,19 +259,106 @@ footer {
     background: url(../images/ico.png) no-repeat;
     text-indent: -999em;
 }
-.kh  li:nth-child(2) h5 {
+
+.kh li:nth-child(2) h5 {
     background-position: 0 -43px;
 }
-.kh  li:nth-child(3) h5 {
+
+.kh li:nth-child(3) h5 {
     background-position: 0 -86px;
 }
-.kh  li:nth-child(4) h5 {
+
+.kh li:nth-child(4) h5 {
     background-position: bottom;
 }
-.kh  li p {
+
+.kh li p {
     font-weight: 700;
     margin-left: 82px;
 }
+
 .help {
-    height: 398px;
+    height: 170px;
+    position: relative;
+    border-bottom: 1px solid #dedede;
 }
+
+.help_block {
+    width: 198px;
+    float: left;
+    border: none;
+    font-size: 14px;
+
+}
+
+.help_block h4, a {
+    color: #666666;
+}
+
+.help_block p {
+    color: #666666;
+    line-height: 20px;
+    font-size: 12px;
+
+}
+
+.help_block > a {
+    position: absolute;
+    right: 170px;
+    top: 104px;
+}
+
+.help_block em {
+    font-family: icomoon;
+    font-style: normal;
+    line-height: 20px;
+}
+#help_block6>h4 {
+    text-align: center;
+}
+.help_big {
+    padding-top: 20px;
+}
+.help_nav>ul  {
+    position: absolute;
+    left: 200px;
+}
+.help_nav li {
+    float: left;
+}
+.help_nav .space {
+    margin: 6px 12px 0;
+}
+.copyright {
+    padding-top: 20px;
+    color: #999999;
+
+}
+.copyright span {
+    margin: 0 10px;
+}
+.copyright p {
+    text-align: center;
+    font-size: 14px;
+}
+.copyright a {
+    font-size: 14px;
+    color: #999999;
+}
+.footer_icon>a {
+    float: left;
+    width: 103px;
+    height: 33px;
+    background: url(../images/ico_footer.png) no-repeat 0 -150px;
+}
+.footer_icon a:nth-child(2) {
+    background: url(../images/ico_footer.png) no-repeat -103px -150px;
+}
+.footer_icon a:nth-child(3) {
+     background: url(../images/ico_footer.png) no-repeat 0px -216px;
+ }
+.footer_icon a:nth-child(4) {
+    background: url(../images/ico_footer.png) no-repeat 0px -183px;
+}.footer_icon a:nth-child(5) {
+     background: url(../images/ico_footer.png) no-repeat -103px -183px;
+ }
