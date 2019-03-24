@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    height: 80px;
+    height: 114px;
     background-color: #020000;
 }
 
@@ -106,7 +106,7 @@ a:hover {
 
 /*中间部分*/
 .middle {
-    height: 170px;
+    height: 140px;
     position: relative;
 }
 
@@ -119,7 +119,7 @@ a:hover {
 
 .logo {
     position: absolute;
-    top: 0;
+    top: -31px;
     left: 0;
     box-shadow: 0px -5px 10px rgba(0, 0, 0, .3);
 }
@@ -129,7 +129,7 @@ a:hover {
     height: 35px;
     background-color: pink;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 320px;
 }
 
@@ -159,7 +159,7 @@ button em {
     height: 33px;
     border: 1px solid #cccccc;
     position: absolute;
-    top: 60px;
+    top: 40px;
     right: 90px;
     background-color: #fff;
     text-align: center;
@@ -187,7 +187,7 @@ button em {
 
 .key {
     position: absolute;
-    top: 98px;
+    top: 80px;
     left: 320px;
 }
 
@@ -211,8 +211,9 @@ button em {
 
 .small_nav li {
     float: left;
-    margin-right: 10px;
+    margin-right: 9px;
     line-height: 33px;
+    font-weight: 800;
 }
 
 .small_nav li a {
@@ -345,8 +346,11 @@ footer {
     font-size: 14px;
     color: #999999;
 }
+.footer_icon {
+    text-align: center;
+}
 .footer_icon>a {
-    float: left;
+    display: inline-block;
     width: 103px;
     height: 33px;
     background: url(../images/ico_footer.png) no-repeat 0 -150px;
@@ -362,3 +366,5 @@ footer {
 }.footer_icon a:nth-child(5) {
      background: url(../images/ico_footer.png) no-repeat -103px -183px;
  }
+
+
